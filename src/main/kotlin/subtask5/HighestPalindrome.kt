@@ -4,7 +4,7 @@ class HighestPalindrome {
 
     // TODO: Complete the following function
     fun highestValuePalindrome(n: Int, k: Int, digitString: String): String {
-        /*var size = digitString.length/2
+        var size = digitString.length/2
         var temp:Char
         var numberOfChanges = k
         var stringBuilder = StringBuilder(digitString)
@@ -34,8 +34,7 @@ class HighestPalindrome {
                     numberOfChanges--
                 }
             }
-        }*/
-        //return stringBuilder.toString()
-		return digitString
+        }
+        return stringBuilder.toString()
     }
 }
